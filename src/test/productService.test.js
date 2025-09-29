@@ -1,4 +1,4 @@
-const { productService, InventoryError } = require('../src/services/productService');
+const { productService, InventoryError } = require('../services/productService');
 
 describe('pure inventory logic', () => {
   test('safeIncrease with positive integer', () => {
